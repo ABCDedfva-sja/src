@@ -1,0 +1,124 @@
+/* Main Upload Container */
+.upload-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.upload-container h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Error Message */
+.upload-container p {
+  color: red;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* File Input */
+.upload-container input[type="file"] {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.upload-container input[type="file"]:hover {
+  border-color: #007bff;
+}
+
+/* Preview Section */
+.file-preview {
+  margin-top: 20px;
+}
+
+.file-preview img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.file-preview h4 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.file-info {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* PDF Preview Section */
+.file-preview .react-pdf__Document {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.pdf-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.pdf-controls button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pdf-controls button:hover {
+  background-color: #0056b3;
+}
+
+.pdf-controls button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+.pdf-controls span {
+  align-self: center;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Upload Button */
+.upload-container button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.upload-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-container button:hover {
+  background-color: #218838;
+}
